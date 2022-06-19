@@ -11,7 +11,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/first_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
@@ -30,7 +30,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/firstWay_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
@@ -56,7 +56,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/second_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
@@ -75,7 +75,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/secondWay_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
@@ -101,7 +101,8 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView5"
+            android:onClick="meth_third"
+            android:id="@+id/third_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
@@ -120,7 +121,8 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:onClick="meth_way_third"
+            android:id="@+id/thirdWay_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5sp"
